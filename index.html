@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <i class="fa-solid fa-i-cursor"></i>
+        <ul id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skill">Skill</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div id="home" class="section">
+        <div class="home-content">
+            <h1 class="animate__animated animate__shakeX">Hey, I'm <span>Issak</span></h1>
+            <p>This is my offical portfolio website to describe all details and work expericence in my web development journey</p>
+            <button id="download">DOWNLOAD CV</button>
+        </div>
+        <div class="home-image">
+            <img class="image-one" id="blob" src="assets/blob.svg" alt="">
+            <img class="image-one" id="man" src="assets/sapiens.svg" alt="">
+        </div>
+    </div>
+    <div class="section-head">
+        <h2>About Me</h2>
+        <p>Introduction</p>
+    </div>
+    <div id="about" class="section">
+        <div data-aos="fade-right" class="about-image">
+            <img src="assets/sapiens2.svg" alt="">
+        </div>
+        <div class="about-content">
+            <p>I'm a web developer with a solid foundation in computer science. I specialize in building responsive, user-friendly websites using modern technologies, focusing on clean code and great user experiences. Currently expanding into full-stack development, I aim to deliver efficient, scalable web solutions.</p>
+            <div class="about-icon"><i class="fa-solid fa-user" style="color: #000000;"></i><p>Issak Thomas</p></div>
+            <div class="about-icon"><i class="fa-solid fa-phone" style="color: #000000;"></i><p>7907420280</p></div>
+            <div class="about-icon"><i class="fa-solid fa-envelope" style="color: #000000;"></i><p>issakthomas22@gmail.com</p></div>
+        </div>
+    </div>
+    <div class="section-head">
+        <h2>Technical Skills</h2>
+        <p>My Skills</p>
+    </div>
+    <div id="section" class="section">
+        <div class="skill-content">
+            <div class="bar-txt">
+                <h3>HTML</h3>
+                <span>90%</span>
+            </div>
+            <div class="bar base-bar"></div>
+            <div class="bar html-bar"></div>
+            <div class="bar-txt">
+                <h3>CSS</h3>
+                <span>70%</span>
+            </div>
+            <div class="bar base-bar"></div>
+            <div class="bar base-bar css-bar"></div>
+            <div class="bar-txt">
+                <h3>JS</h3>
+                <span>30%</span>
+            </div>
+            <div class="bar base-bar"></div>
+            <div class="bar base-bar js-bar"></div>
+            <div class="bar-txt">
+                <h3>REACT</h3>
+                <span>5%</span>
+            </div>
+            <div class="bar base-bar"></div>
+            <div class="bar base-bar react-bar"></div>
+        </div>
+        <div data-aos="fade-left" class="skill-image">
+            <img src="assets/sapiens3.svg" alt="">
+        </div>
+    </div>
+    <div class="section-head">
+        <h2>Contact</h2>
+        <p>My Links</p>
+    </div>
+    <div class="contact">
+        <div class="icon"><a target="_blank" href="https://www.instagram.com/in/issakthomas/"><i class="fa-brands fa-instagram brands"></i></a></div>
+        <div class="icon"><a target="_blank" href="https://www.linkedin.com/in/issakthomas/"><i class="fa-brands fa-linkedin-in brands"></i></a></div>
+        <div class="icon"><a target="_blank" href="https://www.github.com/issakthomas/"><i class="fa-brands fa-github-alt brands"></i></a></div>
+        <div class="icon"><a target="_blank" href="mailto:issakthomas22@gmail.com"><i class="fa-regular fa-envelope brands"></i></a></div>
+    </div>
+    <footer>
+        <p id="copyright">&copy; My Portfolio Website - September 2024, All Rights Reserved to &reg;Issak Thomas</p>
+        <div class="icon up-arrow"><a href="#container"><i class="fa-solid fa-angle-up brands"></i></a></div>
+    </footer>
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+</html>
