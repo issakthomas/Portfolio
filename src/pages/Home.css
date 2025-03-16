@@ -7,6 +7,7 @@
 
     .name {
         h1 {
+            font-size: 30px;
             margin: 0;
         }
 
@@ -16,10 +17,11 @@
     }
 
     .links {
-        font-size: 150px;
-        line-height: 1.1;
+        font-size: 125px;
+        line-height: 1.2;
         display: flex;
         flex-direction: column;
+        text-align: right;
 
         .link {
             font-weight: 500;
@@ -49,7 +51,6 @@
 
         .links {
             margin-left: auto;
-            text-align: right;
         }
     }
 
