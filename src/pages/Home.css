@@ -1,0 +1,60 @@
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    gap: 20px;
+
+    .name {
+        h1 {
+            margin: 0;
+        }
+
+        span {
+            opacity: 60%;
+        }
+    }
+
+    .links {
+        font-size: 150px;
+        line-height: 1.1;
+        display: flex;
+        flex-direction: column;
+
+        .link {
+            font-weight: 500;
+            transition: opacity .5s;
+            text-decoration: none;
+            color: black;
+        }
+
+        &:hover .link {
+            opacity: 50%;
+        }
+
+        & .link:hover {
+            opacity: 100%;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .home {
+        flex-direction: column;
+        justify-content: center;
+
+        .name {
+            margin-right: auto;
+        }
+
+        .links {
+            margin-left: auto;
+            text-align: right;
+        }
+    }
+
+}
+
+@media (max-width: 824px) {
+
+}
