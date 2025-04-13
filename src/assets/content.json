@@ -1,0 +1,38 @@
+{
+  "about": "I’m Issak Thomas, a passionate and fast-adapting full stack web developer with a B.Tech in Computer Science. With hands-on experience across the full development lifecycle—from design to deployment—I specialize in building scalable, responsive web applications using the MERN stack and modern UI frameworks.\nCurrently working as a Front End Engineer (Freelance) at Electix Automation, I focus on crafting modular, performant interfaces using React.js and TailwindCSS. My previous experience includes a full-time Full Stack Internship at Luminar Technolab, where I independently built and deployed production-grade projects, including a feature-rich social media platform, an e-commerce product store, and a real-time movie ticket booking system.\nI’m proficient in JavaScript, React, Redux, Node.js, Express.js, and MongoDB, with working knowledge of tools like Axios, JWT, Three.js, and GSAP. I actively follow design best practices using Figma and CSS frameworks such as Bootstrap and Tailwind. My projects are hosted on platforms like Vercel, Netlify, and Render, showcasing my ability to deliver end-to-end solutions.\nI thrive in collaborative environments where clean code, performance, and usability come together. Whether it’s building REST APIs, implementing authentication flows, or animating UI components, I bring a detail-oriented approach with a strong focus on maintainability and user experience.\nNow, I'm seeking opportunities to apply my technical and creative skills in a forward-thinking team that values innovation, autonomy, and quality software.",
+  "experience": [
+    {
+      "role": "Front End Engineer",
+      "name": "Elextix Automation",
+      "time": "04/2025 - Present"
+    },
+    {
+      "role": "MERN Stack Intern",
+      "name": "Luminar Technolab",
+      "time": "08/2024 - 04/2025",
+      "description": "Completed a hands-on full stack web development training program focused on the MERN stack.\nIndependently developed multiple solo projects including a social media app, product store, and movie ticket booking app.\nGained practical experience in building RESTful APIs using Node.js and Express.js.\nUtilized MongoDB for backend data handling and storage.\nDesigned responsive user interfaces using React.js, TailwindCSS, and Bootstrap.\nImplemented JWT authentication and state management using React hooks.\nDeployed full stack applications using platforms like Vercel, Netlify and Render."
+    }
+  ],
+  "projects": [
+    {
+      "name": "React Social Media App",
+      "description": "Developed a responsive social media web app using the MERN stack. Integrated JWT authentication for secure user access and implemented RESTful APIs with Express.js and MongoDB for efficient backend operations. Managed state effectively using React’s built-in state management.",
+      "features": "User Authentication – Secure login and signup using JWT authentication.\nPost Management – Users can create, edit and like posts.\nProfile & Settings – Users can update their profile details and adjust account settings.\nSearch Functionality – Allows users to search for other users.\nReal-time Updates – Ensured smooth UI interactions with React’s state and hooks.",
+      "links": {
+        "frontend": "https://github.com/issakthomas/Social-Media-App"
+      }
+    },
+    {
+      "name": "React Product Store App",
+      "description": "Developed a responsive CRUD web app for product management using the MERN stack. Implemented RESTful APIswith Express.js and MongoDB for seamless backend operations. Managed state efficiently using React’s built-in state management.",
+      "features": "Full CRUD Functionality – Users can add, edit, update, and delete products.\nREST API Integration – Secure and efficient API calls for data handling.\nMongoDB Database – Stores and retrieves product information efficiently.\nState Management – Utilized React’s state and hooks for smooth UI interactions.\nResponsive Design – Fully optimized for all devices.",
+      "links": {}
+    },
+    {
+      "name": "React Movie Ticket App",
+      "description": "Developed a responsive CRUD web app for movie ticket booking using React.js. Integrated Axios for API calls to a JSON server and leveraged the TMDB API for real-time movie data. Managed application state efficiently using React’s built-in state management.",
+      "features": "Dynamic Seat Selection – Interactive UI for selecting and booking seats.\nTMDB API Integration – Fetches movie details, posters, and ratings.\nState Management – Used React's built-in state to handle UI updates and user interactions.\nFully Responsive Design – Optimized for all devices.\nCRUD Functionality – Allows users to add, edit, and delete bookings.",
+      "links": {}
+    }
+  ]
+}
