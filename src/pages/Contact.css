@@ -17,11 +17,13 @@
         gap: 5px;
     }
 
-    &:hover div {
-        opacity: 50%;
-    }
+    @media (hover: hover) and (pointer: fine) {
+        &:hover div {
+            opacity: 50%;
+        }
 
-    & div:hover {
-        opacity: 1;
+        & div:hover {
+            opacity: 1;
+        }
     }
 }
