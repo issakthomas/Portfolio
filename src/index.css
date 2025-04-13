@@ -55,6 +55,7 @@ button {
     cursor: pointer;
     border: 1px solid;
     border-radius: 50px;
+    background: transparent;
     gap: 5px;
 }
 
