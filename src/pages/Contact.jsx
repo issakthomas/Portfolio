@@ -7,26 +7,36 @@ const Contact = () => {
       <div className="title">Contact</div>
       <section>
         <div id="aboutContent" className="content">
-          <div>
-            <span>Email</span>
-            <span>issakthomas22@gmail.com</span>
-          </div>
-          <div>
-            <span>Mobile</span>
-            <span>+917907420280</span>
-          </div>
-          <div>
-            <span>Linkedin</span>
-            <span>linkedin/issakthomas</span>
-          </div>
-          <div>
-            <span>Github</span>
-            <span>github/issakthomas</span>
-          </div>
-          <div>
-            <span>Instagram</span>
-            <span>instagram/issakthomas</span>
-          </div>
+          <a href="mailto:issakthomas22@gmail.com">
+            <div>
+              <span>Email</span>
+              <span>issakthomas22@gmail.com</span>
+            </div>
+          </a>
+          <a href="tel:+917907420280">
+            <div>
+              <span>Mobile</span>
+              <span>+917907420280</span>
+            </div>
+          </a>
+          <a href="https://www.linkedin.com/in/issakthomas/" target="_blank">
+            <div>
+              <span>Linkedin</span>
+              <span>linkedin/issakthomas</span>
+            </div>
+          </a>
+          <a href="https://github.com/issakthomas" target="_blank">
+            <div>
+              <span>Github</span>
+              <span>github/issakthomas</span>
+            </div>
+          </a>
+          <a href="https://www.instagram.com/issakthomas/" target="_blank">
+            <div>
+              <span>Instagram</span>
+              <span>instagram/issakthomas</span>
+            </div>
+          </a>
         </div>
         <div className="image">
           <img src={image} alt="about" />

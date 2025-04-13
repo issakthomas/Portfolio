@@ -50,6 +50,7 @@ body {
 }
 
 button {
+    margin-bottom: 15px;
     padding: 10px 30px;
     cursor: pointer;
     border: 1px solid;

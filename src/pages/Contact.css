@@ -1,6 +1,11 @@
 #aboutContent {
     height: min-content;
 
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
     div {
         display: flex;
         align-items: center;
