@@ -37,6 +37,16 @@ const Contact = () => {
               <span>instagram/issakthomas</span>
             </div>
           </a>
+          <a
+            href="https://wa.me/917907420280"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div>
+              <span>WhatsApp</span>
+              <span>+917907420280</span>
+            </div>
+          </a>
         </div>
         <div className="image">
           <img src={image} alt="about" />
