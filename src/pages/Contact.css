@@ -1,0 +1,22 @@
+#aboutContent {
+    height: min-content;
+
+    div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px 20px;
+        cursor: pointer;
+        border: 1px solid;
+        border-radius: 50px;
+        gap: 5px;
+    }
+
+    &:hover div {
+        opacity: 50%;
+    }
+
+    & div:hover {
+        opacity: 1;
+    }
+}

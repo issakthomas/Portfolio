@@ -3,6 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    user-select: none;
 }
 
 body {
@@ -46,6 +47,14 @@ body {
             }
         }
     }
+}
+
+button {
+    padding: 10px 30px;
+    cursor: pointer;
+    border: 1px solid;
+    border-radius: 50px;
+    gap: 5px;
 }
 
 @media (max-width: 924px) {

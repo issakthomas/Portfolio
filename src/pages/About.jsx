@@ -10,6 +10,9 @@ const About = () => {
           {content.about.split("\n").map((line, index) => (
             <div key={index}>{line}</div>
           ))}
+          <a href="https://flowcv.com/resume/p92whrbgv0" target="_blank">
+            <button>RESUME</button>
+          </a>
         </div>
         <div className="image">
           <img src={image} alt="about" />
