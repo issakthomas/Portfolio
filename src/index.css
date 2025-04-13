@@ -6,16 +6,12 @@
 }
 
 body {
-    height: 100vh;
-    padding: 50px 100px;
     background-color: #F7F7F7;
 }
 
-#root {
-    height: 100%;
-}
-
 .section {
+    padding: 50px 100px;
+
     .title {
         font-size: clamp(1.5rem, 3vw, 4vw);
         margin-bottom: 10px;
@@ -23,14 +19,12 @@ body {
 
     section {
         display: flex;
-        flex-wrap: wrap-reverse;
         justify-content: space-between;
         width: 100%;
         gap: 20px;
 
         .content {
             flex: 1;
-            min-width: 450px;
 
             div {
                 margin-bottom: 15px;
@@ -43,7 +37,6 @@ body {
 
         .image {
             flex: 1;
-            min-width: 450px;
 
             img {
                 width: 100%;
@@ -56,7 +49,11 @@ body {
 }
 
 @media (max-width: 924px) {
-    body {
+    .section {
         padding: 20px;
+
+        section {
+            flex-direction: column-reverse;
+        }
     }
 }
