@@ -3,14 +3,15 @@
   "experience": [
     {
       "role": "Front End Engineer",
-      "name": "Elextix Automation",
-      "time": "04/2025 - Present"
+      "name": "Electix Automation",
+      "time": "04/2025 - Present",
+      "description": "Contributed to the development of a 3D map platform using React, MapLibre GL JS, and THREE.js for geospatial visualization.\nImplemented custom map layers and 3D model rendering with THREE.js, optimizing for performance.\nCollaborated with the team to iterate features and integrate real-time data sources.\nBuilt reusable React components, improving platform maintainability and efficiency.\nFocused on performance optimization for handling large-scale datasets.\nDeveloped features under project lead guidance."
     },
     {
       "role": "MERN Stack Intern",
       "name": "Luminar Technolab",
       "time": "08/2024 - 04/2025",
-      "description": "Completed a hands-on full stack web development training program focused on the MERN stack.\nIndependently developed multiple solo projects including a social media app, product store, and movie ticket booking app.\nGained practical experience in building RESTful APIs using Node.js and Express.js.\nUtilized MongoDB for backend data handling and storage.\nDesigned responsive user interfaces using React.js, TailwindCSS, and Bootstrap.\nImplemented JWT authentication and state management using React hooks.\nDeployed full stack applications using platforms like Vercel, Netlify and Render."
+      "description": "\nCompleted hands-on full stack web development training focused on the MERN stack.\nIndependently developed projects like a social media app, product store, and movie booking app.\nGained experience building RESTful APIs with Node.js and Express.js.\nUtilized MongoDB for backend data handling and storage.\nDesigned responsive UIs using React.js, TailwindCSS, and Bootstrap.\nImplemented JWT authentication and state management with React hooks.\nDeployed full stack applications on Vercel, Netlify, and Render."
     }
   ],
   "projects": [
